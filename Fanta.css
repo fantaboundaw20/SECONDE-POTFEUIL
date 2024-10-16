@@ -1,0 +1,124 @@
+/* Styles globaux */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Section Accueil (Hero) */
+#accueil {
+    background-color: rgb(239, 121, 225); /* Vous pouvez changer cela si vous le souhaitez */
+    color: white;
+    padding: 100px 0;
+    position: relative;
+}
+
+#accueil h1 {
+    color: #830cd8; /* Violet pour le nom */
+    font-weight: bold;
+}
+
+#accueil .btn {
+    padding: 10px 20px;
+}
+
+#accueil .btn.btn-lg {
+    border-radius: 5px;
+}
+
+#accueil .btn.mx-2 {
+    margin: 10px;
+}
+
+#accueil a.btn {
+    background-color: #6A0DAD; /* Violet pour le bouton Télécharger CV */
+    color: white; /* Blanc pour le texte du bouton */
+}
+
+#accueil a.btn-outline-light {
+    color: #6A0DAD; /* Texte violet clair pour le bouton Contactez-moi */
+    border-color: #6A0DAD;
+}
+
+/* Image circulaire à droite */
+#accueil img {
+    max-width: 250px;
+    border-radius: 50%;
+}
+
+/* Séparateur violet clair entre sections */
+.section-divider {
+    height: 10px;
+    background-color: #6A0DAD; /* Violet clair */
+    margin-top: 50px;
+}
+
+Copier le code
+/* Section Compétences */
+#competences {
+    background-color: #6A0DAD; /* Violet pour la section */
+    padding: 50px 0;
+    color: white;
+}
+
+#competences h4 {
+    color: white; /* Texte des compétences en blanc */
+}
+
+.progress-bar {
+    background-color: #BCBCF2; /* Barre de progression en violet clair */
+}
+
+/* Style des séparateurs */
+.section-divider {
+    height: 3px;
+    background-color: #BCBCF2; /* Séparateur en violet clair */
+    width: 100px;
+    margin: 10px auto;
+}
+
+/* Séparateur plus large en bas */
+.section-divider:last-child {
+    height: 5px;
+    width: 80%;
+    * Section services */
+.service-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 colonnes */
+    gap: 30px;
+    margin: 40px;
+    padding: 20px;
+}
+
+.service-item {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1); /* Ombre autour des rectangles */
+    transition: transform 0.3s ease;
+}
+
+.service-item:hover {
+    transform: translateY(-10px); /* Légère animation au survol */
+}
+
+.service-icon {
+    width: 60px; /* Taille de l'icône */
+    margin-bottom: 15px; /* Espace entre l'icône et le titre */
+}
+
+.service-item h2 {
+    color: #4C2290; /* Couleur violette */
+    margin-bottom: 10px;
+}
+
+.service-item p {
+    color: #555;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.lead{
+    color: black;
+}
